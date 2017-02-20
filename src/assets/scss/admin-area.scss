@@ -1,0 +1,14 @@
+#admin-area {
+    .btn {
+        display: inline-block;
+        width: inherit;
+        float: none;
+
+        &.btn-sm {
+            text-transform: none;
+            font-size: 12px;
+            padding: 8px;
+            letter-spacing: 1px;
+        }
+    }
+}

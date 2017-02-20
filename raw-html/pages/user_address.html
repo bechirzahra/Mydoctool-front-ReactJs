@@ -1,0 +1,65 @@
+<div id="account" class="container">
+
+  <!-- LEFT -->
+  <div class="leftSidebar col-md-3">
+    <div id="profilPicture">
+      <div class="overflow">
+        <img src="https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xft1/t51.2885-15/e35/11419219_945704702159708_793436856_n.jpg" class="img-responsive">
+      </div>
+      <a href="#"><span class="icon-camera"></span></a>
+    </div>
+    <ul class="accountMenu">
+        <li><span class="icon-user"></span><a href="flux.php?page=user_infos">Mes informations</a></li>
+        <li class="active"><span class="icon-house"></span><a href="flux.php?page=user_address">Mon adresse</a></li>
+        <li><span class="icon-locked"></span><a href="flux.php?page=user_password">Mot de passe</a></li>
+        <li><span class="icon-logout"></span><a href="#">Déconnexion</a></li>
+    </ul>
+  </div>
+  <!-- LEFT -->
+
+  <!-- MAIN -->
+  <div class="main col-md-9">
+    <h2>Mon adresse</h2>
+    <form class="row">
+      <div class="col-sm-6">
+        <div class="form-group">
+          <label for="address">Adresse</label>
+          <input type="text" class="form-control" id="address" placeholder="Numéro et nom de la voie">
+        </div>
+        <div class="form-group">
+          <label for="address_more">Adresse complémentaire</label>
+          <input type="text" class="form-control" id="address_more" placeholder="Etage, batiment, autre...">
+        </div>
+        <div class="form-group">
+          <label for="address_more2">Adresse complémentaire</label>
+          <input type="text" class="form-control" id="address_more2" placeholder="Optionnel">
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="form-group">
+          <label for="cp">Codre postal</label>
+          <input type="text" class="form-control" id="cp" placeholder="Indiquez votre code postal">
+        </div>
+        <div class="form-group">
+          <label for="city">Ville</label>
+          <input type="text" class="form-control" id="city" placeholder="Indiquez votre ville">
+        </div>
+        <div class="form-group">
+          <label for="born">Pays</label>
+          <div class="group-select-custom">
+            <select class="browser-default">
+              <option value="" disabled selected>Sélectionnez votre pays</option>
+              <option value="1">France</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <a href="#" class="btn">Enregistrer</a>
+      </div>
+    </form>
+  </div>
+  <!-- MAIN -->
+
+
+</div>

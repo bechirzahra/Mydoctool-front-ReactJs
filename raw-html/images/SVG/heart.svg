@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="29px" viewBox="0 0 32 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#49344D" offset="0%"></stop>
+            <stop stop-color="#75567C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Differents-items" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Création-Niveau" sketch:type="MSArtboardGroup" transform="translate(-176.000000, -601.000000)" fill="url(#linearGradient-1)">
+            <g id="CONTENT" sketch:type="MSLayerGroup" transform="translate(9.000000, 9.000000)">
+                <g id="COLONNE-GAUCHE" transform="translate(16.000000, 88.000000)" sketch:type="MSShapeGroup">
+                    <g id="ICONES" transform="translate(16.000000, 454.000000)">
+                        <g id="C" transform="translate(124.000000, 37.000000)">
+                            <path d="M26.956086,41.4991982 L24.8454338,39.3885461 C17.0058687,32.4535461 11.8799992,27.7799592 11.8799992,22.0510462 C11.8799992,17.3774593 15.49826,13.7591985 20.1718469,13.7591985 C22.7347817,13.7591985 25.2977164,14.9652854 26.956086,16.9251767 C28.6144555,14.9652854 31.1773903,13.7591985 33.7403251,13.7591985 C38.413912,13.7591985 42.0321728,17.3774593 42.0321728,22.0510462 C42.0321728,27.7799592 36.9063033,32.4535461 29.0667381,39.3885461 L26.956086,41.4991982 L26.956086,41.4991982 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

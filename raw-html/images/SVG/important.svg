@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="9px" height="31px" viewBox="0 0 9 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>!</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#49344D" offset="0%"></stop>
+            <stop stop-color="#75567C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Differents-items" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Création-Niveau" sketch:type="MSArtboardGroup" transform="translate(-377.000000, -600.000000)" fill="url(#linearGradient-1)">
+            <g id="CONTENT" sketch:type="MSLayerGroup" transform="translate(9.000000, 9.000000)">
+                <g id="COLONNE-GAUCHE" transform="translate(16.000000, 88.000000)" sketch:type="MSShapeGroup">
+                    <g id="ICONES" transform="translate(16.000000, 454.000000)">
+                        <g id="F" transform="translate(313.000000, 37.000000)">
+                            <g id="!" transform="translate(23.000000, 12.000000)">
+                                <path d="M8.64066667,0.193850129 C8.515,0.0698501292 8.34266667,0 8.16266667,0 L0.695333333,0 C0.515333333,0 0.343,0.0701705426 0.217333333,0.193850129 C0.0913333333,0.317529716 0.024,0.485426357 0.029,0.658449612 L0.589,20.1389457 C0.598666667,20.4856331 0.894333333,20.761509 1.25533333,20.761509 L7.604,20.761509 C7.965,20.761509 8.261,20.4856331 8.27033333,20.1383049 L8.82933333,0.658449612 C8.834,0.48574677 8.76633333,0.317850129 8.64066667,0.193850129 L8.64066667,0.193850129 Z" id="Shape"></path>
+                                <path d="M7.59033333,24.0419018 L1.268,24.0419018 C0.9,24.0419018 0.601333333,24.3289922 0.601333333,24.6827287 L0.601333333,30.3027804 C0.601333333,30.6565168 0.9,30.9436072 1.268,30.9436072 L7.591,30.9436072 C7.959,30.9436072 8.25766667,30.6565168 8.25766667,30.3027804 L8.25766667,24.6827287 C8.257,24.3289922 7.959,24.0419018 7.59033333,24.0419018 L7.59033333,24.0419018 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

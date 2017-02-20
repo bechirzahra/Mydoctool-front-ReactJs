@@ -1,0 +1,148 @@
+<div id="addPatient">
+  <div class="dash">
+    <div class="container-fluid wrapper">
+      <div class="row title">
+        <div class="col-md-6"><p class="text-left">Nouveau patient</p></div>
+        <div class="col-md-6 text-right"><a href="#" class="btnPurple2"><span class="icon icon-add"></span> Importer un fichier patient</a></div>
+      </div>
+      <div class="row form">
+        <form class="form-horizontal password col-md-6">
+          <div class="form-group">
+            <label class="section col-lg-12"> &nbsp; </label>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-4" for="first_name">Nom</label>
+            <div class="col-lg-8">
+              <input type="text" class="form-control" id="first_name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-4" for="last_name">Prénom</label>
+            <div class="col-lg-8">
+              <input type="text" class="form-control" id="last_name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-4" for="email">Email</label>
+            <div class="col-lg-8">
+              <input type="text" class="form-control" id="email">
+            </div>
+          </div>
+        </form>
+        <form class="form-horizontal password col-md-6 borderLeft">
+          <div class="form-group">
+            <label class="section col-lg-12">Champs optionnels</label>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-4" for="sexe">Sexe</label>
+            <div class="col-lg-8 sexe">
+              <div class="radio">
+                <input type="radio" name="sexe" id="female" value="female" checked=""><label for="female">Femme</label>
+              </div>
+              <div class="radio">
+                <input type="radio" name="sexe" id="mal" value="mal" checked=""><label for="mal">Homme</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-4" for="birthday">Date de naissance</label>
+            <div class="col-lg-8">
+              <div class="group-select-custom">
+                <select class="browser-default">
+                  <option value="" disabled="" selected="">Jour</option>
+                  <option value="1">03</option>
+                </select>
+              </div>
+              <div class="group-select-custom">
+                <select class="browser-default">
+                  <option value="" disabled="" selected="">Mois</option>
+                  <option value="1">Décembre</option>
+                </select>
+              </div>
+              <div class="group-select-custom">
+                <select class="browser-default">
+                  <option value="" disabled="" selected="">Année</option>
+                  <option value="1">1922</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-4" for="phone">Téléphone</label>
+            <div class="col-lg-8">
+              <input type="text" class="form-control" id="phone">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-4" for="first_name2">Nom de jeune fille</label>
+            <div class="col-lg-8">
+              <input type="text" class="form-control" id="first_name2">
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="row form">
+        <form class="form-horizontal password col-md-6">
+          <div class="form-group">
+            <label class="section col-lg-12">Autres Informations </label>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-4" for="operationDate">Date d'intervention</label>
+            <div class="col-lg-8">
+              <div class="group-select-custom">
+                <select class="browser-default">
+                  <option value="" disabled="" selected="">Jour</option>
+                  <option value="1">03</option>
+                </select>
+              </div>
+              <div class="group-select-custom">
+                <select class="browser-default">
+                  <option value="" disabled="" selected="">Mois</option>
+                  <option value="1">Décembre</option>
+                </select>
+              </div>
+              <div class="group-select-custom">
+                <select class="browser-default">
+                  <option value="" disabled="" selected="">Année</option>
+                  <option value="1">1922</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-4" for="operationType">Type d'intervention</label>
+            <div class="col-lg-8">
+              <input type="text" class="form-control" id="operationType">
+            </div>
+          </div>
+        </form>
+        <form class="form-horizontal password col-md-6">
+          <div class="form-group">
+            <label class="section col-lg-12">&nbsp; </label>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-4" for="other1">Autre info 01</label>
+            <div class="col-lg-8">
+              <input type="text" class="form-control" id="other1">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-4" for="other2">Autre info 02</label>
+            <div class="col-lg-8">
+              <input type="text" class="form-control" id="other2">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-4" for="ipp">Code IPP<span>(Identifiant Permanent Patient)</span></label>
+            <div class="col-lg-8">
+              <input type="text" class="form-control" id="ipp">
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="row save">
+        <div class="text-right"><a href="#" class="btnPurple2">Créer la fiche patient</a></div>
+      </div>
+    </div>
+  </div>
+</div>

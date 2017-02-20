@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Accueil-Backoffice" sketch:type="MSArtboardGroup" transform="translate(-182.000000, -250.000000)" fill="#FFFFFF">
+            <g id="CONTENT" sketch:type="MSLayerGroup" transform="translate(-2.000000, 55.000000)">
+                <g id="Ligne-A" transform="translate(87.000000, 113.000000)" sketch:type="MSShapeGroup">
+                    <g id="Protocole-1" transform="translate(1.000000, 0.000000)">
+                        <path d="M150.125378,106.62805 L131.367477,106.62805 L131.367477,87.8857426 C131.367477,84.9190444 128.973846,82.5137187 126.007148,82.5137187 C123.04045,82.5137187 120.648119,84.9190444 120.648119,87.8870421 L120.648119,106.641045 L101.881121,106.641045 C98.9144227,106.641045 96.5025997,109.046371 96.5038992,112.014368 C96.5025997,113.497068 97.1016571,114.856317 98.0723639,115.827024 C99.0443701,116.80033 100.385427,117.414981 101.866827,117.414981 L120.648119,117.414981 L120.648119,136.142994 C120.648119,137.626993 121.23678,138.970649 122.208787,139.940056 C123.180793,140.912062 124.517951,141.513719 126.00195,141.513719 C128.967349,141.513719 131.367477,139.108393 131.367477,136.142994 L131.367477,117.413681 L150.125378,117.413681 C153.092076,117.413681 155.497402,114.987564 155.496102,112.020866 C155.494803,109.055467 153.089477,106.62805 150.125378,106.62805 L150.125378,106.62805 Z" id="Shape-Copy"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

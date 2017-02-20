@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="23px" height="22px"
+	 viewBox="0 0 23 22" enable-background="new 0 0 23 22" xml:space="preserve">
+<title>Shape</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1" sketch:type="MSPage">
+	<g id="Flux-Question" transform="translate(-316.000000, -24.000000)" sketch:type="MSArtboardGroup">
+		<g id="Header-Patient" sketch:type="MSLayerGroup">
+			<g id="ACCUEIL" transform="translate(316.000000, 24.000000)">
+				<g id="Shape">
+					<g sketch:type="MSShapeGroup">
+						<path id="path-1" fill="#9670A5" d="M0.764,13.102h1.8v8.037C2.564,21.611,2.911,22,3.336,22h5.273
+							c0.424,0,0.771-0.389,0.771-0.861v-5.885h3.216v5.885c0,0.475,0.348,0.861,0.771,0.861h5.016c0.425,0,0.771-0.389,0.771-0.861
+							v-8.037h2.188c0.309,0,0.592-0.216,0.708-0.531c0.115-0.315,0.052-0.688-0.168-0.934L11.824,0.255
+							c-0.295-0.33-0.784-0.345-1.08-0.014L0.236,11.623c-0.231,0.244-0.296,0.617-0.18,0.947C0.172,12.9,0.455,13.102,0.764,13.102
+							L0.764,13.102z"/>
+					</g>
+					<g>
+						<path id="path-1_1_" fill="none" d="M0.764,13.102h1.8v8.037C2.564,21.611,2.911,22,3.336,22h5.273
+							c0.424,0,0.771-0.389,0.771-0.861v-5.885h3.216v5.885c0,0.475,0.348,0.861,0.771,0.861h5.016c0.425,0,0.771-0.389,0.771-0.861
+							v-8.037h2.188c0.309,0,0.592-0.216,0.708-0.531c0.115-0.315,0.052-0.688-0.168-0.934L11.824,0.255
+							c-0.295-0.33-0.784-0.345-1.08-0.014L0.236,11.623c-0.231,0.244-0.296,0.617-0.18,0.947C0.172,12.9,0.455,13.102,0.764,13.102
+							L0.764,13.102z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

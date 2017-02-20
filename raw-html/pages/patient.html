@@ -1,0 +1,313 @@
+<div id="patient">
+  <div class="dash">
+      <div class="container-fluid wrapper">
+
+        <div class="row infos">
+          <div class="col-md-1">
+            <div class="picture">
+              <div class="img">
+                <img src="http://lorempixel.com/75/75/people/" class="img-circle" />
+              </div>
+              <div class="favorites">
+                <span class="icon-heart border"></span>
+                <span class="icon-heart bg"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-md-offset-1">
+            <p>Julia Roberts</p>
+            <p>31/10/1969</p>
+            <p>julia@gmail.com</p>
+            <p>06 87 56 05 43</p>
+          </div>
+          <div class="col-md-3">
+            <p>Femme</p>
+            <p>Roberts (nom jeune fille)</p>
+            <p>code IPP86RGUIGSUI</p>
+            <p>06 87 56 05 43</p>
+          </div>
+          <div class="col-md-3">
+            <p>Intervention le 23/09/2015</p>
+            <p>Chirrugie Cariaque</p>
+            <p>Info 01</p>
+            <p>info 02</p>
+          </div>
+        </div>
+
+        <div class="row tabs">
+          <nav class="col-lg-12">
+            <a data-content="timelineContent" class="open" href="#">Données patients</a>
+            <a data-content="protocolsContent" href="#">Protocoles</a>
+          </nav>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12"><div class="tabsLine"></div></div>
+        </div>
+
+        <div class="row tools">
+          <div class="col-lg-4">
+            <div class="group-select-custom">
+              <select class="browser-default">
+                <option value="" disabled selected>Filtrer protocoles</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="group-input-custom">
+              <input type="text" required>
+              <span class="highlight"></span>
+              <span class="bar"></span>
+              <label>Rechercher ...</label>
+              <span class="iconRight icon-search"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timelineContent">
+
+          <!-- POPOVER TEXT -->
+          <div id="popoverItemPatient" class="hide">
+           <div class="title">Le jhhjdsb ffdhj</div>
+           <div class="date">Lundi 12 décembre à 12h45</div>
+           <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+          </div>
+
+          <!-- POPOVER CHARTS -->
+          <!-- <div id="popoverItemPatient" class="hide">
+            
+          </div> -->
+
+          <div class="row types">
+            <div class="col-lg-12">
+              <div class="alerts">
+                <p>Questions</p>
+                <p class="number">2</p>
+              </div>
+              <div class="tasks">
+                <p>Tâches</p>
+                <p class="number">2</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row timeline">
+            <div class="col-lg-12">
+              <ul class="days">
+                <li class="day">
+                  <div class="lane"></div>
+                  <div class="puce"></div>
+                  <div class="date">Aujourd'hui</div>
+                  <ul class="items">
+                    <li class="item" data-toggle="popover">
+                      <p class="title">Evaluation du sommeil</p>
+                      <p class="content">Lorem ipsum dolor sit amet, cons ectetur</p>
+                      <div id="popover-content" class="hide">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      </div>
+                    </li>
+                    <li class="item">
+                      <p class="title">Evaluation du sommeil</p>
+                      <p class="content number">9<span>/10</span></p>
+                    </li>
+                    <li class="item alertTask">
+                      <p class="title">Evaluation du sommeil</p>
+                      <p class="content">Lorem ipsum dolor sit amet, cons ectetur</p>
+                    </li>
+                    <li class="item alertQuestion">
+                      <p class="title">Evaluation du sommeil</p>
+                      <p class="content number">9<span>/10</span></p>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </li>
+                <li class="day">
+                  <div class="lane"></div>
+                  <div class="puce"></div>
+                  <div class="date">Aujourd'hui</div>
+                  <ul class="items">
+                    <li class="item" data-toggle="popover">
+                      <p class="title">Evaluation du sommeil</p>
+                      <p class="content">Lorem ipsum dolor sit amet, cons ectetur</p>
+                    </li>
+                    <li class="item">
+                      <p class="title">Evaluation du sommeil</p>
+                      <p class="content number">9<span>/10</span></p>
+                    </li>
+                    <li class="item alertTask">
+                      <p class="title">Evaluation du sommeil</p>
+                      <p class="content">Lorem ipsum dolor sit amet, cons ectetur</p>
+                    </li>
+                    <li class="item alertQuestion">
+                      <p class="title">Evaluation du sommeil</p>
+                      <p class="content number">9<span>/10</span></p>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="protocolsContent">
+          <ul>
+            <li style="border-left-color:red;">
+            <div class="row">
+              <div class="col-md-6 title"><p>fdslfj kdslfkl dsfklj kdsfkl djslf</p></div>
+              <div class="col-md-6">
+                <div class="col-lg-2 dateFrom">
+                  <p>21/09</p>
+                </div>
+                <div class="col-md-8">
+                  <div class="percent">
+                    <div class="current" style="width:38%;"></div>
+                  </div>
+                </div>
+                <div class="col-lg-2 dateTo">
+                  <p>21/09</p>
+                </div>
+              </div>
+            </div>
+              <a class="delete" href="#"><span class="icon icon-trash"></span></a>
+            </li>
+          </ul>
+          <div class="add">
+            <div class="bloc">
+              <a href="#" class="more"><span class="icon icon-add"></span></a>
+              <div class="group-select-custom">
+                <select class="browser-default">
+                  <option value="" disabled selected>Séléctionner un protocole</option>
+                </select>
+              </div>
+              <div class="date">
+                <label>Début:</label>
+                <input type="text" class="form-control" placeholder="JJ">
+                <input type="text" class="form-control" placeholder="MM">
+                <input type="text" class="form-control year" placeholder="AAAA">
+              </div>
+              <a href="#" class="btnPurple2">Ajouter</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  <div class="messages">
+    <form>
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Envoyer message à">
+      </div>
+      <div class="form-group">
+        <textarea class="form-control" rows="5" placeholder="Saisie message"></textarea>
+      </div>
+      <div class="form-group text-right">
+        <a href="#" class="btnPurple2">Envoyer</a>
+      </div>
+    </form>
+
+    <ul class="timeline">
+      <li>
+        <div class="lane"></div>
+        <div class="photo">
+          <!-- <img src="http://lorempixel.com/75/75/people/" /> -->
+          AD
+        </div>
+        <a href="#" class="more"><span class="icon-dots-three"></span></a>
+        <div class="content">
+          <p class="name">Sophie</p>
+          <p class="date">Aujourd'hui à 15h13</p>
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <div class="text-right">
+            <a href="#" class="btnPurple2">Ok</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="lane"></div>
+        <div class="photo">
+          <img src="http://lorempixel.com/75/75/people/" />
+        </div>
+        <a href="#" class="more"><span class="icon-dots-three"></span></a>
+        <div class="content">
+          <p class="name">Sophie</p>
+          <p class="date">Aujourd'hui à 15h13</p>
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <div class="text-right">
+            <a href="#" class="btnPurple2">Ok</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="lane"></div>
+        <div class="photo">
+          <img src="http://lorempixel.com/75/75/people/" />
+        </div>
+        <a href="#" class="more"><span class="icon-dots-three"></span></a>
+        <div class="content">
+          <p class="name">Sophie</p>
+          <p class="date">Aujourd'hui à 15h13</p>
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <div class="text-right">
+            <a href="#" class="btnPurple2">Ok</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="lane"></div>
+        <div class="photo">
+          <img src="http://lorempixel.com/75/75/people/" />
+        </div>
+        <a href="#" class="more"><span class="icon-dots-three"></span></a>
+        <div class="content">
+          <p class="name">Sophie</p>
+          <p class="date">Aujourd'hui à 15h13</p>
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <div class="text-right">
+            <a href="#" class="btnPurple2">Ok</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="lane"></div>
+        <div class="photo">
+          <img src="http://lorempixel.com/75/75/people/" />
+        </div>
+        <a href="#" class="more"><span class="icon-dots-three"></span></a>
+        <div class="content">
+          <p class="name">Sophie</p>
+          <p class="date">Aujourd'hui à 15h13</p>
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <div class="text-right">
+            <a href="#" class="btnPurple2">Ok</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="lane"></div>
+        <div class="photo">
+          <img src="http://lorempixel.com/75/75/people/" />
+        </div>
+        <a href="#" class="more"><span class="icon-dots-three"></span></a>
+        <div class="content">
+          <p class="name">Sophie</p>
+          <p class="date">Aujourd'hui à 15h13</p>
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <div class="text-right">
+            <a href="#" class="btnPurple2">Ok</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

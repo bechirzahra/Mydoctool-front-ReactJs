@@ -1,0 +1,293 @@
+@import 'vars';
+@import 'functions';
+@import 'icons';
+@import 'fonts';
+@import 'custom-checkbox';
+@import 'custom-select';
+
+.base-auth {
+  background: url('../images/bg_login.png') no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100%;
+}
+
+#login, #register, #forgotten{
+  padding-top: 150px;
+}
+
+#footer{
+  opacity: 0.47;
+  background: #49344D;
+  border: 1px solid #513757;
+  border-radius: 4px 4px 0px 0px;
+  width: 135px;
+  height: 50px;
+  bottom: 0;
+  margin-left: 15px;
+  text-align: center;
+  img{
+    margin-top: 10px;
+    @include transition(opacity .2s ease-in-out);
+    @include opacity(1);
+    &:hover{
+      @include opacity(0.6);
+    }
+  }
+}
+
+input[type=text],
+input[type=email],
+input[type=password]{
+  font-family: 'helvetica_neue_light';
+  color: #6F6F6F;
+  border: 1px solid #D7D7D7;
+  @include border-radius(0);
+  font-size: 17px;
+  padding: 9px 10px;
+  @include box-shadow(0);
+}
+.checkbox label::after{
+  left: 0;
+}
+
+.btn{
+  font-family: 'helvetica_neue';
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 2.33px;
+  line-height: 16px;
+  color: #FFFFFF;
+  float: right;
+  background-color: #9973A2;
+  padding:13px;
+  width: 100%;
+  margin-top: 15px;
+  text-transform: uppercase;
+  @include transition(opacity .2s ease-in-out);
+  @include opacity(1);
+  &:hover{
+    @include opacity(0.8);
+    color: #FFFFFF;
+  }
+}
+
+.infos .logo{
+  display:table;
+  height: 115px;
+  width: 240px;
+  background: #FFFFFF;
+  border-radius: 2px 2px 12px 12px;
+  margin: 0 auto;
+  text-align: center;
+  p{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  img{
+    max-width: 200px;
+  }
+}
+
+.infos{
+  padding: 0 75px;
+  background: rgba(248,248,248,0.16);
+  border: 1px solid rgba(240,240,240,0.37);
+  border-radius: 6px;
+  font-family: 'helvetica_neue_light';
+  h2{
+    margin: 35px 0 10px 0;
+    font-size: 36px;
+    color: #D2A2DD;
+    letter-spacing: 1.05px;
+    line-height: 44px;
+  }
+  .message{
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0.58px;
+    line-height: 24px;
+    margin-bottom: 35px;
+  }
+}
+
+.form{
+  overflow: hidden;
+  background: #F8F8F8;
+  border: 1px solid #E6E6E6;
+  border-radius: 6px;
+  padding: 0 40px;
+  h2{
+    font-family: 'helvetica_neue_light';
+    font-size: 36px;
+    color: #9973A2;
+    letter-spacing: 1.05px;
+    line-height: 44px;
+    margin: 30px 0 20px 0;
+    @media (max-width: 322px) {
+      font-size: 34px;
+    }
+  }
+  .inlineBlock{
+    display: inline-block;
+    width: 50%;
+  }
+  .btn{
+    margin: 10px 0 30px 0;
+  }
+  .cgu label,
+  .autoLog label,{
+    font-family: 'helvetica_neue_light';
+    font-size: 14px;
+    color: #919191;
+    line-height: 20px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    a{
+      color:#9973A2;
+    }
+  }
+  .forgotten{
+    display: inline-block;
+    // margin: 15px 0;
+    font-family: 'helvetica_neue_light';
+    font-size: 14px;
+    color: #9973A2;
+    line-height: 35px;
+    // margin: 15px 0;
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+
+.actionsAccount{
+  .col-xs-6{
+    padding: 0;
+  }
+  a{
+    display: inline-block;
+    margin: 15px 0;
+    font-family: 'helvetica_neue_light';
+    font-size: 17px;
+    color: #FFFFFF;
+    line-height: 19px;
+    margin: 15px 0;
+    text-decoration: none;
+    span{
+      color: #9973A2;
+      display: block;
+    }
+    &.login{
+      color: #9973A2;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+    &:hover span{
+      text-decoration: underline;
+    }
+  }
+}
+
+.actions p{
+  font-family: 'helvetica_neue_light';
+  font-size: 17px;
+  color: #FFFFFF;
+  line-height: 19px;
+  margin: 15px 0;
+  a{
+    color:#9973A2;
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+
+
+#register{
+  .infos{
+    height: 478px;
+  }
+}
+
+
+#login{
+  .infos{
+    height: 342px;
+  }
+}
+
+#forgotten{
+  h2{
+    text-align: center;
+  }
+  .message{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0.58px;
+    line-height: 26px;
+    margin:20px 0;
+    color: #919191;
+  }
+}
+
+@media(max-width: 991px){
+  #login{
+    padding-top: 15px;
+  }
+  .container{
+    padding: 0;
+  }
+  #register .infos,
+  #login .infos{
+    height: auto;
+    margin-bottom: 15px;
+  }
+}
+
+@media(max-width: 768px){
+  #first_name{
+    margin-bottom:15px;
+  }
+}
+
+@media(min-width: 768px){
+  #footer{
+    position: fixed;
+  }
+}
+
+@media(max-width: 450px){
+ .infos,.form{
+    padding: 0 15px;
+  }
+}
+
+@media(max-width: 390px){
+  .actionsAccount{
+    .col-xs-6{
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+@media(max-width: 360px){
+  .infos .logo{
+    width: auto;
+    p{
+      width: auto;
+    }
+    img{
+      width: 100%;
+    }
+  }
+  .actions a {
+    display: block;
+  }
+}

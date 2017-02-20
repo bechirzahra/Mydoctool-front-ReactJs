@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>editer</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Accueil-Protocole-Vide" sketch:type="MSArtboardGroup" transform="translate(-545.000000, -88.000000)" fill="#54415B">
+            <g id="CONTENT" sketch:type="MSLayerGroup" transform="translate(0.000000, 55.000000)">
+                <g id="TITRE-+-CTA" sketch:type="MSShapeGroup">
+                    <path d="M555.571035,35.8339626 L559.029211,39.305231 L550.275611,48.0920516 L546.819395,44.6207832 L555.571035,35.8339626 L555.571035,35.8339626 Z M561.653298,34.9967722 L560.111085,33.4487057 C559.515072,32.8504314 558.547271,32.8504314 557.949234,33.4487057 L556.471948,34.9315986 L559.930124,38.4028993 L561.653298,36.6731856 C562.115567,36.2091302 562.115567,35.4607953 561.653298,34.9967722 L561.653298,34.9967722 Z M545.009662,49.4999304 C544.946728,49.7842422 545.202451,50.0389999 545.48572,49.9698579 L549.339277,49.0319711 L545.883061,45.5607026 L545.009662,49.4999304 L545.009662,49.4999304 Z" id="editer"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

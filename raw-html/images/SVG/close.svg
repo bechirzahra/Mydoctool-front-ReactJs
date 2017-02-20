@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>Add Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Differents-items" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Création-Tache" sketch:type="MSArtboardGroup" transform="translate(-1243.000000, -20.000000)" fill="#FFFFFF" opacity="0.699999988">
+            <g id="CONTENT" sketch:type="MSLayerGroup" transform="translate(9.000000, 9.000000)">
+                <path d="M1259.77793,21.1527776 L1247.80707,21.1527776 L1247.80707,9.18233888 C1247.80707,8.18551232 1246.9981,7.37484524 1246,7.37484524 C1245.0019,7.37484524 1244.19293,8.18551232 1244.19293,9.18191289 L1244.19293,21.1527776 L1232.22207,21.1527776 C1231.22439,21.1527776 1230.415,21.9634447 1230.415,22.9598452 C1230.415,23.9596538 1231.22439,24.7669129 1232.22207,24.7669129 L1244.19293,24.7669129 L1244.19293,36.7373516 C1244.19293,37.7380121 1245.0019,38.5444192 1246,38.5444192 C1246.9981,38.5444192 1247.80707,37.7367341 1247.80707,36.7373516 L1247.80707,24.7669129 L1259.77793,24.7669129 C1260.77646,24.7669129 1261.585,23.9592278 1261.585,22.9598452 C1261.585,21.9634447 1260.77604,21.1527776 1259.77793,21.1527776 L1259.77793,21.1527776 Z" id="Add-Copy" sketch:type="MSShapeGroup" transform="translate(1246.000000, 22.959632) rotate(-45.000000) translate(-1246.000000, -22.959632) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

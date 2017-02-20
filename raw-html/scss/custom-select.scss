@@ -1,0 +1,36 @@
+/* Style Select Field */
+.group-select-custom select {
+  font-family: inherit;
+  background-color: transparent;
+  width: 100%;
+  padding: 10px 10px 10px 5px;
+  font-size: 18px;
+  color: #919191;
+  border: none;
+  border-bottom:1px solid #DADADA;
+}
+
+/* Remove focus */
+.group-select-custom select:focus {
+  outline: none;
+}
+
+/* Hide label */
+.group-select-custom label {
+  display: none;
+}
+
+/* Use custom arrow */
+.group-select-custom select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB3aWR0aD0iMTVweCIgaGVpZ2h0PSI5cHgiIHZpZXdCb3g9IjAgMCAxNSA5IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIj4gICAgICAgIDx0aXRsZT5TaGFwZTwvdGl0bGU+ICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPiAgICA8ZGVmcz48L2RlZnM+ICAgIDxnIGlkPSJEaWZmZXJlbnRzLWl0ZW1zIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBza2V0Y2g6dHlwZT0iTVNQYWdlIj4gICAgICAgIDxnIGlkPSJBY2N1ZWlsLUJhY2tvZmZpY2UtNCIgc2tldGNoOnR5cGU9Ik1TQXJ0Ym9hcmRHcm91cCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTExNjQuMDAwMDAwLCAtOTEuMDAwMDAwKSIgc3Ryb2tlPSIjREFEQURBIiBzdHJva2Utd2lkdGg9IjIiPiAgICAgICAgICAgIDxnIGlkPSJDT05URU5UIiBza2V0Y2g6dHlwZT0iTVNMYXllckdyb3VwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMi4wMDAwMDAsIDU1LjAwMDAwMCkiPiAgICAgICAgICAgICAgICA8ZyBpZD0iRklMVFJFUyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMi4wMDAwMDAsIDAuMDAwMDAwKSIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCI+ICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iRklMVFJFUiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoOTQxLjAwMDAwMCwgMjguMDAwMDAwKSI+ICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTIyNCw5LjIgTDIzMC4yLDE1LjUgTDIzNi41LDkuMiIgaWQ9IlNoYXBlIj48L3BhdGg+ICAgICAgICAgICAgICAgICAgICA8L2c+ICAgICAgICAgICAgICAgIDwvZz4gICAgICAgICAgICA8L2c+ICAgICAgICA8L2c+ICAgIDwvZz48L3N2Zz4=);
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
+.group-select-custom {
+  font-family: 'helvetica_neue_thin';
+  position: relative;
+}

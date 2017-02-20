@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="33px" height="19px" viewBox="0 0 33 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Accueil-Backoffice" sketch:type="MSArtboardGroup" transform="translate(-1149.000000, -526.000000)" fill="#DADADA">
+            <g id="CONTENT" sketch:type="MSLayerGroup" transform="translate(-2.000000, 55.000000)">
+                <g id="TEMPLATES" transform="translate(0.000000, 444.000000)" sketch:type="MSShapeGroup">
+                    <g id="HEADER">
+                        <path d="M1167.49438,45.9783488 C1166.90315,45.9783488 1166.312,45.7506434 1165.86124,45.2961899 L1151.67679,30.9883062 C1150.77448,30.0781473 1150.77448,28.6024806 1151.67679,27.6926899 C1152.57874,26.7828992 1154.0414,26.7828992 1154.94379,27.6926899 L1167.49438,40.3530969 L1180.04504,27.6931318 C1180.94735,26.7833411 1182.40987,26.7833411 1183.31175,27.6931318 C1184.2145,28.6029225 1184.2145,30.0785891 1183.31175,30.9887481 L1169.12751,45.2966318 C1168.67654,45.7511589 1168.08538,45.9783488 1167.49438,45.9783488 L1167.49438,45.9783488 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+.popover{
+  background-color: #9578A4;
+}
+
+.popover.top>.arrow:after{
+  border-top-color: #9578A4;
+}
+
+.popover .close {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
+.popover-title {
+  padding-right: 30px;
+}

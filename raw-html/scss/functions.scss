@@ -1,0 +1,54 @@
+@mixin transition($value) {
+  -moz-transition:    $value;
+  -o-transition:      $value;
+  -webkit-transition: $value;
+  transition:         $value;
+}
+
+@mixin box-shadow($value) {
+  -moz-box-shadow:    $value;
+  -o-box-shadow:      $value;
+  -webkit-box-shadow: $value;
+  box-shadow:         $value;
+}
+
+@mixin border-radius($value) {
+  -moz-border-radius:    $value;
+  -o-border-radius:      $value;
+  -webkit-border-radius: $value;
+  border-radius:         $value;
+}
+
+@mixin transform($value) {
+  -webkit-transform: $value;
+  -ms-transform:     $value;
+  transform:         $value;
+}
+
+@mixin rotate($value) {
+  @include transform(rotate($value));
+}
+
+@mixin opacity($value){
+  $IEValue: $value*100;
+  opacity: $value;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity="+$IEValue+")";
+  filter: alpha(opacity=$IEValue);
+}
+
+@mixin verticalCenter($elementHeight) {
+  position: absolute;
+  top:50%;
+  margin-top: -($elementHeight/2);
+}
+
+@mixin horizontalCenter($elementWidth) {
+  position: absolute;
+  left:50%;
+  margin-left: -($elementWidth/2);
+}
+
+@mixin centerElement($elementHeight, $elementWidth){
+  @include verticalCenter($elementHeight);
+  @include horizontalCenter($elementWidth);
+}

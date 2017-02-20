@@ -1,0 +1,108 @@
+<div id="account" class="container">
+
+  <!-- LEFT -->
+  <div class="leftSidebar col-md-3">
+    <div id="profilPicture">
+      <div class="overflow">
+        <img src="https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xft1/t51.2885-15/e35/11419219_945704702159708_793436856_n.jpg" class="img-responsive">
+      </div>
+      <a href="#"><span class="icon-camera"></span></a>
+    </div>
+    <ul class="accountMenu">
+        <li class="active"><span class="icon-user"></span><a href="flux.php?page=user_infos">Mes informations</a></li>
+        <li><span class="icon-house"></span><a href="flux.php?page=user_address">Mon adresse</a></li>
+        <li><span class="icon-locked"></span><a href="flux.php?page=user_password">Mot de passe</a></li>
+        <li><span class="icon-logout"></span><a href="#">Déconnexion</a></li>
+    </ul>
+  </div>
+  <!-- LEFT -->
+
+  <!-- MAIN -->
+  <div class="main col-md-9">
+    <h2>Mes informations</h2>
+    <form class="row">
+      <div class="col-sm-6">
+        <div class="form-group">
+          <label for="first_name">Prénom</label>
+          <input type="text" class="form-control" id="first_name">
+        </div>
+        <div class="form-group">
+          <label for="last_name">Nom</label>
+          <input type="text" class="form-control" id="last_name">
+        </div>
+        <div class="form-group">
+          <label for="last_name2">Nom de jeune fille</label>
+          <input type="text" class="form-control" id="last_name2">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+          <label for="port">Téléphone portable</label>
+          <input type="text" class="form-control" id="port">
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="form-group date">
+          <label for="born">Date de naissance</label>
+          <div class="group-select-custom">
+            <select class="browser-default">
+              <option value="" disabled selected>Jour</option>
+              <option value="1">03</option>
+            </select>
+          </div>
+          <div class="group-select-custom">
+            <select class="browser-default">
+              <option value="" disabled selected>Mois</option>
+              <option value="1">Décembre</option>
+            </select>
+          </div>
+          <div class="group-select-custom">
+            <select class="browser-default">
+              <option value="" disabled selected>Année</option>
+              <option value="1">1922</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group sexe">
+          <label for="sexe">Sexe</label>
+          <div class="radio">
+            <input type="radio" name="sexe" id="female" value="female" checked><label for="female">Femme</label>
+          </div>
+          <div class="radio">
+            <input type="radio" name="sexe" id="male" value="male"><label for="male">Homme</label>
+          </div>
+        </div>
+        <div class="form-group size">
+          <label for="born">Taille</label>
+          <div class="group-select-custom">
+            <select class="browser-default">
+              <option value="" disabled selected>Indiquez votre taille</option>
+              <option value="1">03</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="weight">Poids au <b>31 octobre 2015</b></label>
+          <input type="text" class="form-control" id="weight" placeholder="Entrez votre poids en kg (ex : 60,5)">
+        </div>
+        <div class="form-group smoker">
+          <label for="sexe">Fumeur</label>
+          <div class="radio">
+            <input type="radio" name="smoker" id="smoker1" value="1" checked><label for="smoker1">Oui</label>
+          </div>
+          <div class="radio">
+            <input type="radio" name="smoker" id="smoker0" value="0"><label for="smoker0">Non</label>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <a href="#" class="btn">Enregistrer</a>
+      </div>
+    </form>
+  </div>
+  <!-- MAIN -->
+
+
+</div>

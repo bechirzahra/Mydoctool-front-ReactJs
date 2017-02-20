@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="31px" height="31px" viewBox="0 0 31 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#49344D" offset="0%"></stop>
+            <stop stop-color="#75567C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Differents-items" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Création-Niveau" sketch:type="MSArtboardGroup" transform="translate(-53.000000, -600.000000)" fill="url(#linearGradient-1)">
+            <g id="CONTENT" sketch:type="MSLayerGroup" transform="translate(9.000000, 9.000000)">
+                <g id="COLONNE-GAUCHE" transform="translate(16.000000, 88.000000)" sketch:type="MSShapeGroup">
+                    <g id="ICONES" transform="translate(16.000000, 454.000000)">
+                        <g id="A" transform="translate(0.000000, 37.000000)">
+                            <path d="M41.1947416,22.7279841 L32.9332272,21.9057589 C32.4124292,21.855927 31.9624123,21.5071042 31.7495953,20.9838699 L28.7905154,13.4343469 C28.3170626,12.188551 26.6360685,12.188551 26.1626157,13.4343469 L23.2272084,20.9838699 C23.0378273,21.5071042 22.5643746,21.855927 22.0435765,21.9057589 L13.7818254,22.7279841 C12.5508482,22.8525637 12.0537228,24.4720984 12.9769557,25.3441555 L19.2028598,31.0997324 C19.6052947,31.4734712 19.7710031,32.0216214 19.6526399,32.5697716 L17.7825014,40.6422797 C17.4984298,41.9132406 18.8004249,42.95946 19.8893663,42.2869794 L26.7781043,38.0261083 C27.2278845,37.7520332 27.7723552,37.7520332 28.2221353,38.0261083 L35.11111,42.2869794 C36.2000514,42.95946 37.5020466,41.9381565 37.2177382,40.6422797 L35.3712723,32.5697716 C35.2529092,32.0216214 35.4186176,31.4734712 35.8210525,31.0997324 L42.0469566,25.3441555 C42.9465169,24.4720984 42.4257188,22.8525637 41.1947416,22.7279841 L41.1947416,22.7279841 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

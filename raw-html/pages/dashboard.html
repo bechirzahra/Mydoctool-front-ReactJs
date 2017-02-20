@@ -1,0 +1,783 @@
+<div id="dashboard">
+  <div class="dash container-fluid">
+    <div class="wrapper">
+      <div class="welcomeDate">Lundi <br/>30 novembre</div>
+      <nav class="tabs">
+        <a class="alerts open" href="#">
+          <div class="number">9</div>
+          <div class="title">Alertes</div>
+        </a>
+        <a class="tasks" href="#">
+          <div class="number">5</div>
+          <div class="title">Tâches</div>
+        </a>
+        <a class="users" href="#">
+          <div class="number">18</div>
+          <div class="title">Patients <span>en attente</span></div>
+        </a>
+        <a class="favorites" href="#">
+          <div class="number">45</div>
+          <div class="title">Favoris</div>
+        </a>
+      </nav>
+
+      <div class="clearfix"></div>
+
+      <!-- ALERTS WRAPPER -->
+      <div class="container-fluid contentDash alerts">
+        <div class="row tools">
+          <div class="col-lg-8">
+            <div class="group-input-custom">
+              <input type="text" required>
+              <span class="highlight"></span>
+              <span class="bar"></span>
+              <label>Rechercher ...</label>
+              <span class="iconRight icon-search"></span>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="group-select-custom">
+              <select class="browser-default">
+                <option value="" disabled selected>Filtrer</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="row blocDash">
+          <div class="col-lg-3 user">
+            <a href="#" class="message"><span class="icon-mail"></span></a>
+            <div class="picture">
+              <div class="img">
+                <img src="http://lorempixel.com/75/75/people/" class="img-circle" />
+              </div>
+              <div class="favorites">
+                <span class="icon-heart border"></span>
+                <span class="icon-heart bg"></span>
+              </div>
+            </div>
+            <div class="nameUser">
+              <p>Aurélien</p>
+              <p>Digout</p>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="row protocolLine">
+              <div class="col-lg-4 protocol">
+                <div class="row">
+                  <p class="title">Suivi post opération chirurgical</p>
+                </div>
+                <div class="row">
+                  <div class="col-xs-2 dateFrom">
+                    <p>21/09</p>
+                  </div>
+                  <div class="col-xs-8">
+                    <div class="percent">
+                      <div class="current" style="width:38%;"></div>
+                    </div>
+                  </div>
+                  <div class="col-xs-2 dateTo">
+                    <p>21/09</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 col-sm-4 questions">
+                <div class="row response">
+                  <div class="col-lg-5">
+                    <p class="question">Niveau de douleur ?</p>
+                    <p class="date">Aujourd’hui à 15h13</p>
+                  </div>
+                  <div class="col-lg-2 kpi">9<span>/10</span>
+                  </div>
+                  <div class="col-lg-5">
+                    <canvas class="chart" id="myChart1" width="160" height="35"></canvas>
+                  </div>
+                </div>
+                <div class="row response">
+                  <div class="col-lg-5">
+                    <p class="question">Température</p>
+                    <p class="date">Hier à 11h34</p>
+                  </div>
+                  <div class="col-lg-2 kpi">38<span>°C</span>
+                  </div>
+                  <div class="col-lg-5">
+                    <canvas class="chart" id="myChart2" width="160" height="35"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row protocolLine">
+              <div class="col-lg-4 protocol">
+                <div class="row">
+                  <p class="title">Le chemin est long du projet à la chose</p>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 dateFrom">
+                    <p>21/09</p>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="percent">
+                      <div class="current" style="width:66%;"></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 dateTo">
+                    <p>21/09</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 questions">
+                <div class="row response">
+                  <div class="col-lg-5">
+                    <p class="question">Démangeaisons</p>
+                    <p class="date">Aujourd’hui à 15h13</p>
+                  </div>
+                  <div class="col-lg-2 kpi txt">Parfois
+                  </div>
+                  <div class="col-lg-5">
+                    <p class="choice"><span class="positive">-1</span> Quelque fois</p>
+                    <p class="choice"><span class="negative">-2</span> Souvent</p>
+                    <p class="choice"><span class="positive">-3</span> Réponse assez lodf sdqsdsqd qsd</p>
+                  </div>
+                </div>
+                <div class="row response">
+                  <div class="col-lg-5">
+                    <p class="question">Poids</p>
+                    <p class="date">Hier à 11h34</p>
+                  </div>
+                  <div class="col-lg-2 kpi">74<span>,32Kg</span>
+                  </div>
+                  <div class="col-lg-5">
+                    <canvas class="chart" id="myChart3" width="160" height="35"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="checkbox pull-right">
+            <input type="checkbox" id="checkbox1">
+            <label for="checkbox1">Clôturer alerte</label>
+          </div>
+        </div>
+        <div class="row blocDash">
+          <div class="col-lg-3 user">
+            <a href="#" class="message"><span class="icon-mail"></span></a>
+            <div class="picture">
+              <div class="img">AD</div>
+              <div class="favorites">
+                <span class="icon-heart border"></span>
+                <span class="icon-heart bg"></span>
+              </div>
+            </div>
+            <div class="nameUser">
+              <p>Aurélien</p>
+              <p>Digout</p>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="row protocolLine">
+              <div class="col-lg-4 protocol">
+                <div class="row">
+                  <p class="title">Suivi post opération chirurgical</p>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 dateFrom">
+                    <p>21/09</p>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="percent">
+                      <div class="current" style="width:100%;"></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 dateTo">
+                    <p>21/09</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 questions">
+                <div class="row response noResponse">
+                  <div class="col-lg-5">
+                    <p class="question">Niveau de douleur ?</p>
+                    <p class="date">Aujourd’hui à 15h13</p>
+                  </div>
+                  <div class="col-lg-7">
+                    <p class="textError">Pas de réponse effectuée</p>
+                    <p class="lateNumber">4 jours de retard</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="checkbox pull-right">
+            <input type="checkbox" id="checkbox2">
+            <label for="checkbox2">Clôturer alerte</label>
+          </div>
+        </div>
+        <div class="row blocDash">
+          <div class="col-lg-3 user">
+            <a href="#" class="message"><span class="icon-mail"></span></a>
+            <div class="picture">
+              <div class="img">AD</div>
+              <div class="favorites">
+                <span class="icon-heart border"></span>
+                <span class="icon-heart bg"></span>
+              </div>
+            </div>
+            <div class="nameUser">
+              <p>Aurélien</p>
+              <p>Digout</p>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="row protocolLine">
+              <div class="col-lg-4 protocol">
+                <div class="row">
+                  <p class="title">Suivi post opération chirurgical</p>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 dateFrom">
+                    <p>21/09</p>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="percent">
+                      <div class="current" style="width:100%;"></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 dateTo">
+                    <p>21/09</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 questions">
+                <div class="row response noAlert">
+                  <div class="col-lg-12">
+                    <p>Pas d’alerte en cours</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="checkbox pull-right">
+            <input type="checkbox" id="checkbox2">
+            <label for="checkbox2">Clôturer alerte</label>
+          </div>
+        </div>
+      </div>
+      <!-- ALERTS WRAPPER -->
+
+      <!-- TASKS WRAPPER -->
+      <div class="container-fluid contentDash tasks">
+        <div class="row tools">
+          <div class="col-lg-8">
+            <div class="group-input-custom">
+              <input type="text" required>
+              <span class="highlight"></span>
+              <span class="bar"></span>
+              <label>Rechercher ...</label>
+              <span class="iconRight icon-search"></span>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="group-select-custom">
+              <select class="browser-default">
+                <option value="" disabled selected>Filtrer</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="row blocDash">
+          <div class="col-lg-3 user">
+            <a href="#" class="message"><span class="icon-mail"></span></a>
+            <div class="picture">
+              <div class="img">
+                <img src="http://lorempixel.com/75/75/people/" class="img-circle" />
+              </div>
+              <div class="favorites">
+                <span class="icon-heart border"></span>
+                <span class="icon-heart bg"></span>
+              </div>
+            </div>
+            <div class="nameUser">
+              <p>Aurélien</p>
+              <p>Digout</p>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="row protocolLine">
+              <div class="col-lg-4 protocol">
+                <div class="row">
+                  <p class="title">Suivi post opération chirurgical</p>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 dateFrom">
+                    <p>21/09</p>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="percent">
+                      <div class="current" style="width:38%;"></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 dateTo">
+                    <p>21/09</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 questions">
+                <div class="row response noResponse">
+                  <div class="col-lg-5">
+                    <p class="question">Lorem ipsum dolor sit amet, consectetur</p>
+                    <p class="date">Aujourd’hui à 15h13</p>
+                  </div>
+                  <div class="col-lg-7">
+                    <p class="textError">Tâche libellé non effectué</p>
+                    <p class="lateNumber">6 jours de retard</p>
+                  </div>
+                </div>
+                <div class="row response noResponse">
+                  <div class="col-lg-5">
+                    <p class="question">Température</p>
+                    <p class="date">Hier à 11h34</p>
+                  </div>
+                  <div class="col-lg-7">
+                    <p class="textError">Tâche libellé non effectué</p>
+                    <p class="lateNumber">4 jours de retard</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="checkbox pull-right">
+            <input type="checkbox" id="checkbox3">
+            <label for="checkbox3">Clôturer tâche</label>
+          </div>
+        </div>
+      </div>
+      <!-- TASKS WRAPPER -->
+
+      <!-- USERS WRAPPER -->
+      <div class="container-fluid contentDash users">
+        <div class="row tools">
+          <div class="col-lg-8">
+            <div class="group-input-custom">
+              <input type="text" required>
+              <span class="highlight"></span>
+              <span class="bar"></span>
+              <label>Rechercher ...</label>
+              <span class="iconRight icon-search"></span>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="group-select-custom">
+              <select class="browser-default">
+                <option value="" disabled selected>Filtrer</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="row blocDash">
+          <div class="col-lg-3 user">
+            <a href="#" class="message"><span class="icon-mail"></span></a>
+            <div class="picture">
+              <div class="img">
+                <img src="http://lorempixel.com/75/75/people/" class="img-circle" />
+              </div>
+              <div class="favorites">
+                <span class="icon-heart border"></span>
+                <span class="icon-heart bg"></span>
+              </div>
+            </div>
+            <div class="nameUser">
+              <p>Aurélien</p>
+              <p>Digout</p>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="row protocolLine">
+              <div class="col-lg-4 protocol">
+                <div class="row">
+                  <p class="title">Suivi post opération chirurgical</p>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 dateFrom">
+                    <p>21/09</p>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="percent">
+                      <div class="current" style="width:38%;"></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 dateTo">
+                    <p>21/09</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 questions">
+                <div class="row response noResponse">
+                  <div class="col-lg-5">
+                    <p class="question">Lorem ipsum dolor sit amet, consectetur</p>
+                    <p class="date">Aujourd’hui à 15h13</p>
+                  </div>
+                  <div class="col-lg-7">
+                    <p class="textError">Tâche libellé non effectué</p>
+                    <p class="lateNumber">6 jours de retard</p>
+                  </div>
+                </div>
+                <div class="row response noResponse">
+                  <div class="col-lg-5">
+                    <p class="question">Température</p>
+                    <p class="date">Hier à 11h34</p>
+                  </div>
+                  <div class="col-lg-7">
+                    <p class="textError">Tâche libellé non effectué</p>
+                    <p class="lateNumber">4 jours de retard</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12 lastLogin">Dernière connexion le 13 novembre 2015</div>
+        </div>
+      </div>
+      <!-- USERS WRAPPER -->
+
+      <!-- ALERTS WRAPPER -->
+      <div class="container-fluid contentDash favorites">
+        <div class="row tools">
+          <div class="col-lg-8">
+            <div class="group-input-custom">
+              <input type="text" required>
+              <span class="highlight"></span>
+              <span class="bar"></span>
+              <label>Rechercher ...</label>
+              <span class="iconRight icon-search"></span>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="group-select-custom">
+              <select class="browser-default">
+                <option value="" disabled selected>Filtrer</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="row blocDash">
+          <div class="col-lg-3 user">
+            <a href="#" class="message"><span class="icon-mail"></span></a>
+            <div class="picture">
+              <div class="img">
+                <img src="http://lorempixel.com/75/75/people/" class="img-circle" />
+              </div>
+              <div class="favorites">
+                <span class="icon-heart border"></span>
+                <span class="icon-heart bg"></span>
+              </div>
+            </div>
+            <div class="nameUser">
+              <p>Aurélien</p>
+              <p>Digout</p>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="row protocolLine">
+              <div class="col-lg-4 protocol">
+                <div class="row">
+                  <p class="title">Suivi post opération chirurgical</p>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 dateFrom">
+                    <p>21/09</p>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="percent">
+                      <div class="current" style="width:38%;"></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 dateTo">
+                    <p>21/09</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 questions">
+                <div class="row response">
+                  <div class="col-lg-5">
+                    <p class="question">Niveau de douleur ?</p>
+                    <p class="date">Aujourd’hui à 15h13</p>
+                  </div>
+                  <div class="col-lg-2 kpi">9<span>/10</span>
+                  </div>
+                  <div class="col-lg-5">
+                    <canvas class="chart" id="myChart1" width="160" height="35"></canvas>
+                  </div>
+                </div>
+                <div class="row response">
+                  <div class="col-lg-5">
+                    <p class="question">Température</p>
+                    <p class="date">Hier à 11h34</p>
+                  </div>
+                  <div class="col-lg-2 kpi">38<span>°C</span>
+                  </div>
+                  <div class="col-lg-5">
+                    <canvas class="chart" id="myChart2" width="160" height="35"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row protocolLine">
+              <div class="col-lg-4 protocol">
+                <div class="row">
+                  <p class="title">Le chemin est long du projet à la chose</p>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 dateFrom">
+                    <p>21/09</p>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="percent">
+                      <div class="current" style="width:66%;"></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 dateTo">
+                    <p>21/09</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 questions">
+                <div class="row response">
+                  <div class="col-lg-5">
+                    <p class="question">Démangeaisons</p>
+                    <p class="date">Aujourd’hui à 15h13</p>
+                  </div>
+                  <div class="col-lg-2 kpi txt">Parfois
+                  </div>
+                  <div class="col-lg-5">
+                    <p class="choice"><span class="positive">-1</span> Quelque fois</p>
+                    <p class="choice"><span class="negative">-2</span> Souvent</p>
+                    <p class="choice"><span class="positive">-3</span> Réponse assez lodf sdqsdsqd qsd</p>
+                  </div>
+                </div>
+                <div class="row response">
+                  <div class="col-lg-5">
+                    <p class="question">Poids</p>
+                    <p class="date">Hier à 11h34</p>
+                  </div>
+                  <div class="col-lg-2 kpi">74<span>,32Kg</span>
+                  </div>
+                  <div class="col-lg-5">
+                    <canvas class="chart" id="myChart3" width="160" height="35"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row blocDash">
+          <div class="col-lg-3 user">
+            <a href="#" class="message"><span class="icon-mail"></span></a>
+            <div class="picture">
+              <div class="img">AD</div>
+              <div class="favorites">
+                <span class="icon-heart border"></span>
+                <span class="icon-heart bg"></span>
+              </div>
+            </div>
+            <div class="nameUser">
+              <p>Aurélien</p>
+              <p>Digout</p>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="row protocolLine">
+              <div class="col-lg-4 protocol">
+                <div class="row">
+                  <p class="title">Suivi post opération chirurgical</p>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 dateFrom">
+                    <p>21/09</p>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="percent">
+                      <div class="current" style="width:100%;"></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 dateTo">
+                    <p>21/09</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 questions">
+                <div class="row response noResponse">
+                  <div class="col-lg-5">
+                    <p class="question">Niveau de douleur ?</p>
+                    <p class="date">Aujourd’hui à 15h13</p>
+                  </div>
+                  <div class="col-lg-7">
+                    <p class="textError">Pas de réponse effectuée</p>
+                    <p class="lateNumber">4 jours de retard</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row blocDash">
+          <div class="col-lg-3 user">
+            <a href="#" class="message"><span class="icon-mail"></span></a>
+            <div class="picture">
+              <div class="img">AD</div>
+              <div class="favorites">
+                <span class="icon-heart border"></span>
+                <span class="icon-heart bg"></span>
+              </div>
+            </div>
+            <div class="nameUser">
+              <p>Aurélien</p>
+              <p>Digout</p>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="row protocolLine">
+              <div class="col-lg-4 protocol">
+                <div class="row">
+                  <p class="title">Suivi post opération chirurgical</p>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 dateFrom">
+                    <p>21/09</p>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="percent">
+                      <div class="current" style="width:100%;"></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 dateTo">
+                    <p>21/09</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 questions">
+                <div class="row response noAlert">
+                  <div class="col-lg-12">
+                    <p>Pas d’alerte en cours</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="checkbox pull-right">
+            <input type="checkbox" id="checkbox2">
+            <label for="checkbox2">Clôturer alerte</label>
+          </div>
+        </div>
+      </div>
+      <!-- ALERTS WRAPPER -->
+
+    </div>
+  </div>
+
+  <div class="messages">
+    <form>
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Envoyer message à">
+      </div>
+      <div class="form-group">
+        <textarea class="form-control" rows="5" placeholder="Saisie message"></textarea>
+      </div>
+      <div class="form-group text-right">
+        <a href="#" class="btnPurple2">Envoyer</a>
+      </div>
+    </form>
+
+    <ul class="timeline">
+      <li>
+        <div class="lane"></div>
+        <div class="photo">
+          <!-- <img src="http://lorempixel.com/75/75/people/" /> -->
+          AD
+        </div>
+        <a href="#" class="more"><span class="icon-dots-three"></span></a>
+        <div class="content">
+          <p class="name">Sophie</p>
+          <p class="date">Aujourd'hui à 15h13</p>
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <div class="text-right">
+            <a href="#" class="btnPurple2">Ok</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="lane"></div>
+        <div class="photo">
+          <img src="http://lorempixel.com/75/75/people/" />
+        </div>
+        <a href="#" class="more"><span class="icon-dots-three"></span></a>
+        <div class="content">
+          <p class="name">Sophie</p>
+          <p class="date">Aujourd'hui à 15h13</p>
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <div class="text-right">
+            <a href="#" class="btnPurple2">Ok</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="lane"></div>
+        <div class="photo">
+          <img src="http://lorempixel.com/75/75/people/" />
+        </div>
+        <a href="#" class="more"><span class="icon-dots-three"></span></a>
+        <div class="content">
+          <p class="name">Sophie</p>
+          <p class="date">Aujourd'hui à 15h13</p>
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <div class="text-right">
+            <a href="#" class="btnPurple2">Ok</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="lane"></div>
+        <div class="photo">
+          <img src="http://lorempixel.com/75/75/people/" />
+        </div>
+        <a href="#" class="more"><span class="icon-dots-three"></span></a>
+        <div class="content">
+          <p class="name">Sophie</p>
+          <p class="date">Aujourd'hui à 15h13</p>
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <div class="text-right">
+            <a href="#" class="btnPurple2">Ok</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="lane"></div>
+        <div class="photo">
+          <img src="http://lorempixel.com/75/75/people/" />
+        </div>
+        <a href="#" class="more"><span class="icon-dots-three"></span></a>
+        <div class="content">
+          <p class="name">Sophie</p>
+          <p class="date">Aujourd'hui à 15h13</p>
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <div class="text-right">
+            <a href="#" class="btnPurple2">Ok</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="lane"></div>
+        <div class="photo">
+          <img src="http://lorempixel.com/75/75/people/" />
+        </div>
+        <a href="#" class="more"><span class="icon-dots-three"></span></a>
+        <div class="content">
+          <p class="name">Sophie</p>
+          <p class="date">Aujourd'hui à 15h13</p>
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <div class="text-right">
+            <a href="#" class="btnPurple2">Ok</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="29px" height="19px" viewBox="0 0 29 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Accueil-Protocole-Vide" sketch:type="MSArtboardGroup" transform="translate(-48.000000, -85.000000)" fill="#B4B4B4">
+            <g id="CONTENT" sketch:type="MSLayerGroup" transform="translate(0.000000, 55.000000)">
+                <g id="TITRE-+-CTA" sketch:type="MSShapeGroup">
+                    <g id="RETOUR" transform="translate(28.250000, 18.552037)">
+                        <path d="M46.9992605,19.744116 L23.944986,19.744116 L29.4460723,14.1438259 C29.9280024,13.6535267 29.9280024,12.8581686 29.4460723,12.367942 C28.9641421,11.8773527 28.1828224,11.8773527 27.7016047,12.367942 L20.0944608,20.111913 C19.6125306,20.6022121 19.6125306,21.3976428 20.0944608,21.8877969 L27.7016047,29.6321306 C27.9424985,29.8774977 28.2582041,30 28.5738385,30 C28.8894728,30 29.2051784,29.8774977 29.4460723,29.6321306 C29.9280024,29.1418314 29.9280024,28.3464733 29.4460723,27.8563191 L23.944986,22.2557389 L46.9992605,22.2557389 C47.6805462,22.2557389 48.2330131,21.693418 48.2330131,20.9998912 C48.2330131,20.3063645 47.6806174,19.744116 46.9992605,19.744116 L46.9992605,19.744116 Z" id="Shape-Copy"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
